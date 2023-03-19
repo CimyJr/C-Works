@@ -26,5 +26,9 @@ int main(){
 	else if((resultado>=30.0) && (resultado<=34.9))
 		printf("Seu resultado e %.2f voce esta na obesidade 1", resultado);
 	
-	
+	else if((resultado>=35.0) && (resultado<=39.9))
+		printf("Seu resultado e %.2f voce esta na obesidade 2(severa)", resultado);
+
+	else if(resultado>=40)
+		printf("Seu resultado e %.2f voce esta na obesidade 3(morbida)", resultado);	
 }
